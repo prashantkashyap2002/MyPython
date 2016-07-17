@@ -9,7 +9,10 @@ git commit -m "commit log"
 git remote add origin https://github.com/prashantkashyap2002/MyPython.git
 git push -u origin master
 **************************
-git pull & pussh
+git pull & push
 
 git pull // update the git files
 git commit -m "commit log"
+git push -u origin master
+**************************
+git clone git://github.com/prashantkashyap2002/MyPython.git
