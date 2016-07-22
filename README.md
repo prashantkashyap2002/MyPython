@@ -21,3 +21,9 @@ Add a file in git
 git add .
 git commit -m "comment"
 git push
+--------------*******************
+delete a file
+-------------
+git rm <file name>
+git commit
+git push
