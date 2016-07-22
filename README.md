@@ -16,3 +16,8 @@ git commit -m "commit log"
 git push -u origin master
 **************************
 git clone git://github.com/prashantkashyap2002/MyPython.git
+********************
+Add a file in git
+git add .
+git commit -m "comment"
+git push
