@@ -14,7 +14,16 @@ def sum_natural(num):
 			i+=num
 			num = num-1
 		return i
+def var_arg_func(arg1, *vartuple):
+	print arg1
+	for var in vartuple:
+		print var
+	return
 
 num = int(input("Input the number: "))
 n = sum_natural(num)
 print("sum of natural no " + str(num) + "=" + str(n))
+var_arg_func(n)
+var_arg_func(n,num)
+
+
